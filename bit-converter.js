@@ -95,7 +95,7 @@ function intToBinaryString(number, minLength) {
     return binary;
 }
 
-export {
+module.exports = {
     bitsRequired,
     uintToInt,
     intToUint,
